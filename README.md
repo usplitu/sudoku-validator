@@ -5,11 +5,21 @@ A library that facilitates validation of a partially completed standard 9 x 9 Su
 
 ## Installation
 
-`npm install https://github.com/usplitu/sudoku-validator.git`
+`npm install --save https://github.com/usplitu/sudoku-validator.git`
+
+or
+
+`npm install --save usplitu/sudoku-validator#master`
 
 ## Usage
 
+### Hapi server
+
 `const neighbour = require('../../node_modules/sudoku-validator')`
+
+### Aurelia client
+
+`const neighbour = require('../../../../node_modules/sudoku-validator/index')`
 
 `isNeighbour(grid, cell, val)`
 
@@ -25,6 +35,9 @@ A library that facilitates validation of a partially completed standard 9 x 9 Su
 Traversal is from top left, row-wise. For example, the indices of the top row (row 0) range from 0 to 8 and so on, the last row (row 8) having indices in the range [72, 80]
 
 
+## Issues
+
+Usage paths: these should not be necessary. Fix required.
 
 ## Tests
 
