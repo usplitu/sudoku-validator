@@ -1,5 +1,5 @@
 {
-  "name": "sudoku_validator",
+  "name": "sudoku-validator",
   "version": "1.0.0",
   "description": "Validate a partial (problem) sudoku grid.",
   "main": "index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/usplitu/sudoku_validator.git"
+    "url": "git+https://github.com/usplitu/sudoku-validator.git"
   },
   "keywords": [
     "sudoku",
@@ -16,10 +16,13 @@
     "problem",
     "grid"
   ],
+  "dependencies": {
+      "sudoku-validator": "usplitu/sudoku-validator#master"
+    },
   "author": "john fitzgerald <usplitu@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/usplitu/sudoku_validator/issues"
+    "url": "https://github.com/usplitu/sudoku-validator/issues"
   },
-  "homepage": "https://github.com/usplitu/sudoku_validator#readme"
+  "homepage": "https://github.com/usplitu/sudoku-validator#readme"
 }
