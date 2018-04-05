@@ -5,11 +5,11 @@ A library that facilitates validation of a partially completed standard 9 x 9 Su
 
 ## Installation
 
-`npm install https://github.com/usplitu/sudoku_validator.git`
+`npm install https://github.com/usplitu/sudoku-validator.git`
 
 ## Usage
 
-`const isNeighbour = require('./node_modules/sudoku_validator/neighbour')`
+`const isNeighbour = require('isNeighbour')`
 
 `isNeighbour(grid, cell, val)`
 
