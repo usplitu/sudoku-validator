@@ -1,0 +1,25 @@
+{
+  "name": "sudoku_validator",
+  "version": "1.0.0",
+  "description": "Validate a partial (problem) sudoku grid.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/usplitu/sudoku_validator.git"
+  },
+  "keywords": [
+    "sudoku",
+    "validate",
+    "problem",
+    "grid"
+  ],
+  "author": "john fitzgerald <usplitu@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/usplitu/sudoku_validator/issues"
+  },
+  "homepage": "https://github.com/usplitu/sudoku_validator#readme"
+}
