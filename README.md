@@ -9,7 +9,7 @@ A library that facilitates validation of a partially completed standard 9 x 9 Su
 
 ## Usage
 
-`const isNeighbour = require('isNeighbour')`
+`const neighbour = require('../../node_modules/sudoku-validator')`
 
 `isNeighbour(grid, cell, val)`
 
