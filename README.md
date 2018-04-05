@@ -34,6 +34,7 @@ or
 
 Traversal is from top left, row-wise. For example, the indices of the top row (row 0) range from 0 to 8 and so on, the last row (row 8) having indices in the range [72, 80]
 
+`isValid` module also present. Check the source in `node_modules/sudoku-validator/validate.js` for details.
 
 ## Issues
 

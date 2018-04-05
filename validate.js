@@ -13,7 +13,7 @@ const neighbour = require('./index')
    * present in its neighbourhood. 
    * @param data The problem grid.
    */
-  isValid(data) {
+  function isValid(data) {
     for (let cell = 0; cell < data.length; cell += 1) {
       if(data[cell] !== '') {
         let val = data[cell]
