@@ -16,10 +16,7 @@
     "problem",
     "grid"
   ],
-  "dependencies": {
-      "sudoku-validator": "usplitu/sudoku-validator#master"
-    },
-  "author": "john fitzgerald <usplitu@gmail.com>",
+  "author": "jfitzgerald",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/usplitu/sudoku-validator/issues"

@@ -13,15 +13,11 @@ or
 
 ## Usage
 
-### Hapi server
-
-`const neighbour = require('../../node_modules/sudoku-validator')`
-
-### Aurelia client
-
-`const neighbour = require('../../../../node_modules/sudoku-validator/index')`
+`const neighbour = require('sudoku-validator')`
 
 `isNeighbour(grid, cell, val)`
+
+`isValid(grid)`
 
 `grid` is a zero index based one-dimensional array of Sudoku values, range [0, 80]. In composing `grid`, empty cells should be represented with empty strings (''). 
 
@@ -34,11 +30,10 @@ or
 
 Traversal is from top left, row-wise. For example, the indices of the top row (row 0) range from 0 to 8 and so on, the last row (row 8) having indices in the range [72, 80]
 
-`isValid` module also present. Check the source in `node_modules/sudoku-validator/validate.js` for details.
+`isValid(grid)` checks the Sudoku one-dimensional grid array for compliance with the rules, namely no value to appear more than once in a particular row, column or box. It does not check that the grid is fully populated with numbers. Thus, it works for partial or complete grids.
 
 ## Issues
 
-Usage paths: these should not be necessary. Fix required.
 
 ## Tests
 
