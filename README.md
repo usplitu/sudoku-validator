@@ -13,11 +13,11 @@ or
 
 ## Usage
 
-`const neighbour = require('sudoku-validator')`
+`const validator = require('sudoku-validator')`
 
-`isNeighbour(grid, cell, val)`
+`validator.isNeighbour(grid, cell, val)`
 
-`isValid(grid)`
+`validator.isValid(grid)`
 
 `grid` is a zero index based one-dimensional array of Sudoku values, range [0, 80]. In composing `grid`, empty cells should be represented with empty strings (''). 
 

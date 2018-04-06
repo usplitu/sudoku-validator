@@ -4,7 +4,8 @@ const neighbourMethods = require('./neighbour')
 const validate = require('./validate')
 
 module.exports = {
-	boxMethods: boxMethods,
-	neighbourMethods: neighbourMethods,
-	validate: validate
+	populateBoxes: boxMethods.populateBoxes,
+	whichBox: boxMethods.whichBox,
+	isNeighbour: neighbourMethods.isNeighbour,
+	isValid: validate.isValid
 }
